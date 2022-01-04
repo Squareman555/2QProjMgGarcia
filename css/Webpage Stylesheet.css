@@ -1,0 +1,62 @@
+body {
+    background-image: url("../images/WebsitePage1BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+div.logo{
+    float: top;
+    text-align: center;
+    border: 2px dashed black;
+    margin:0 auto;
+    width: 200px ;
+    clip-path: polygon(50% 14%, 99% 37%, 80% 79%, 21% 79%, 2% 37%);
+
+}
+
+div.main_content{
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    border: 20px ridge #0c0b64;
+    padding: 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: #ffffffc7;
+    font-family: Arial, Helvetica, sans-serif;
+    font: "Helvetica";
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+  a:visited {
+    text-decoration: none;
+    color:blue;
+}
+  
+  a:hover {
+    text-decoration: underline;
+}
+  
+  a:active {
+    text-decoration: underline;
+}
+
+div.Champ_list {
+    width: 150px;
+    height: 400px;
+    overflow: auto;
+    border: 20px ridge #B08ED9;
+    padding: 20px;
+    margin:0 auto;
+    float: right;
+    background-color: #ffffffc7;
+    font-family: Arial, Helvetica, sans-serif;
+    font: "Arial";
+}
