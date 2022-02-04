@@ -1,0 +1,263 @@
+body {
+    background-image: url("../images/WebsitePage5BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    float: top;
+    text-align: center;
+    border: 2px dashed black;
+    margin:0 auto;
+    width: 200px ;
+    clip-path: polygon(50% 14%, 99% 37%, 80% 79%, 21% 79%, 2% 37%);
+
+}
+
+nav > div.pageList {
+    width: max-content;
+    height: 175px;
+    border: 20px inset #0c0b64;
+    padding: 5px;
+    margin:0 auto;
+    background-color: black;
+    position: relative;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    margin-bottom: 10px;
+}
+
+nav > div.pageList > span {
+    margin: auto;
+    display: inline-block;
+}
+
+div.TOP, div.JG, div.MID, div.SUPP, div.ADC {
+    display: inline-block;
+}
+.TOP, .JG, .MID, .SUPP, .ADC {
+    width: 175px;
+    height: 175px;
+}
+
+div#suppSprite {
+    width: 175px;
+    height: 174px;
+    background: url('../images/Support_sprite.png') 0 0;
+}
+
+div#suppSprite:hover {
+    width: 173px;
+    height: 174px;
+    background: url('../images/Support_sprite.png') -173px 0;
+}
+
+
+div#adcSprite {
+    width: 175px;
+    height: 174px;
+    background: url('../images/Bottom_sprite.png') 0 0;
+}
+
+div#adcSprite:hover {
+    width: 174px;
+    height: 174px;
+    background: url('../images/Bottom_sprite.png') -175px 0;
+}
+
+div#jgSprite {
+    width: 175px;
+    height: 175px;
+    background: url('../images/Jungle_sprite.png') -0 -0;
+}
+
+div#jgSprite:hover {
+    width: 173px;
+    height: 175px;
+    background: url('../images/Jungle_sprite.png') -175px -0;
+}
+
+div#midSprite {
+    width: 175px;
+    height: 175px;
+    background: url('../images/Mid_sprite.png') -0 -0;
+}
+
+div#midSprite:hover {
+    width: 174px;
+    height: 174px;
+    background: url('../images/Mid_sprite.png') -175px -0;
+}
+
+div#topSprite {
+    width: 175px;
+    height: 175px;
+    background: url('../images/Top_sprite.png') -0 -0;
+}
+
+div#topSprite:hover {
+    width: 174px;
+    height: 174px;
+    background: url('../images/Top_sprite.png') -175px -0;
+}
+
+section{
+    height: 500px;
+    overflow: auto;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid gray;
+    left: 0;
+    right: 0;
+    background-color: #ffffffc7;
+    font-family: Arial, Helvetica, sans-serif;
+    font: "Helvetica";
+    color:black;
+}
+
+article {
+    margin: 2.5px;
+    border: 5px dashed red;
+    padding: 5px;
+}
+
+aside {
+    width: auto;
+    height: 500px;
+    overflow: auto;
+    padding: 20px;
+    background-color: #ffffffc7;
+    font-family: Arial, Helvetica, sans-serif;
+    font: "Arial";
+    padding-left: 15px;
+    margin-left: 0px;
+    float: right;
+    border: 10px solid gray;
+    border-left: none;
+}
+
+figure {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 5px dotted rgba(0, 0, 0, 0.329);
+    color:white;
+}
+
+figure > h2{
+    color: white;
+    text-shadow: 2px 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    width: 480px;
+    height: 270px;
+}
+
+div.vidDos {
+    margin-top: 7.5px;
+}
+
+figcaption {
+    color: white;
+    text-shadow: 1px 1px rgb(105, 105, 105);
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
+  
+a:visited {
+    text-decoration: none;
+    color:red;
+}
+  
+  a:hover {
+    text-decoration: underline;
+}
+  
+  a:active {
+    text-decoration: underline;
+}
+
+footer {
+    height: max-content;
+    padding: 5px;
+    border:none;
+    text-align: left;
+    background-color: rgba(4, 0, 58, 0.76);
+    color: white;
+    flex-shrink: 0;
+    bottom: 0;
+}
+
+footer > .sources {
+    font-style: italic;
+}
+
+div.socmed {
+    position: fixed;
+    width: max-content;
+    height:80px;
+    right: 100px;
+    bottom: 0px;
+    padding: 1px;
+    bottom: 0;
+}
+
+div.socmed > div {
+    display: inline-block;
+}
+
+div.FB div.SPTFY div.YT {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+div#epbi {
+    width: 76px;
+    height: 77px;
+    background: url('../images/FB_icons.png') -0 -0;
+}
+
+div#epbi:hover {
+    width: 76px;
+    height: 77px;
+    background: url('../images/FB_icons.png') -77px -0;
+}
+
+div#ispotipay {
+    width: 70px;
+    height: 70px;
+    background: url('../images/sptfy_icons.png') -0 -0;
+}
+
+div#ispotipay:hover {
+    width: 70px;
+    height: 70px;
+    background: url('../images/sptfy_icons.png') -71px -0;
+}
+
+div#yutub {
+    width: 69px;
+    height: 70px;
+    background: url('../images/YT_icon.png') -0 -0;
+}
+
+div#yutub:hover {
+    width: 69px;
+    height: 70px;
+    background: url('../images/YT_icon.png') -69px -0;
+}
+
+@keyframes animation1 {
+    0% {left: 0; top: 0;}
+    50% {left: 500px; top: 0;}
+    100% {left: -1000px; top: 0;}
+}
